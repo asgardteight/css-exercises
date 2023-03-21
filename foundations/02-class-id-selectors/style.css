@@ -6,3 +6,9 @@
 .cooler-element {
     font-size: 24px;
 }
+
+#second-element {
+    color: #0000ff;
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
