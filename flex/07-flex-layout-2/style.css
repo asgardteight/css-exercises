@@ -33,15 +33,59 @@ body {
 body {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .content {
   display: flex;
+  flex: 1 1 auto;
 }
 
 .sidebar {
+  display: flex;
   flex: 0 0 300px;
 }
+
 .cards{
   display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+}
+
+.card {
+  flex: 1 1 auto;
+  max-width: 300px;
+  padding: 16px;
+  margin: 16px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  font-size: 32px;
+  padding: 0px 16px;
+  margin: 0;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+li {
+  margin-bottom: 16px;
 }
