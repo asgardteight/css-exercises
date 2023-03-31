@@ -42,8 +42,8 @@ body {
 }
 
 .sidebar {
-  display: flex;
-  flex: 0 0 300px;
+  flex-shrink: 0;
+  padding: 16px;
 }
 
 .cards{
@@ -77,7 +77,7 @@ body {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 16px;
+  padding: 0;
 }
 
 a {
