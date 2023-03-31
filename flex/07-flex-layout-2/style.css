@@ -27,3 +27,21 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/*solution*/
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+}
+
+.sidebar {
+  flex: 0 0 300px;
+}
+.cards{
+  display: flex;
+}
